@@ -27,7 +27,7 @@ database / drivers / install
 -- install mongoose
 connection database => /*
 const mongoose = require('mongoose')
-mongoose.connect("mongodb+srv://julianoramboribas:mongo2030@node-api.leznjwy.mongodb.net/Node-API?retryWrites=true&w=majority&appName=Node-API")
+mongoose.connect("##########################################")
     .then(()=>{
         console.log('Connected to database')
     })
